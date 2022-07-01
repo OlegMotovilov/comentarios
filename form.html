@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form id="contactform" action="#" method="post" value="this" accept-charset="utf-8" class="form-submit contact-form wpcf7-form">
+    <span class="wpcf7-form-control-wrap your-name">
+      <label for="text">Nombre:</label>
+        <input type="text" tabindex="1" id="name" name="name" value="" class="wpcf7-form-control" placeholder="" required>
+    </span>                                                      
+    <span class="wpcf7-form-control-wrap your-email">
+      <label for="email">Email:</label>
+        <input type="email" tabindex="3" id="email" name="email" value="" class="wpcf7-form-control" placeholder="" required>
+    </span> <br />
+    <span class="wpcf7-form-control-wrap your-message">
+      <label for="message">Mensaje:</label>
+    <textarea name="message" id="messagetext" tabindex="5" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" placeholder="" required ></textarea>
+    </span>                                                             
+     <div class="btn-main">
+        
+        <button name="submit" onclick="algonormal(this)" value="accion" type="button" class=" submit btn-contact hv-linear border-corner" id="subir">
+            <span class="more">Enviar
+                <span class="icon"><i class="fas fa-plus"></i></span>
+            </span>
+        </button>
+    </div> 
+    
+    <!--<div class="campo enviar">
+      <input type="hidden" id="accion" value="crear">
+      <input type="submit" value="Añadir">
+     </div>-->
+
+</form>
+</body>
+<script src="javascript/comentario.js"></script>
+</html>
